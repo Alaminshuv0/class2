@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+
+.login-box{
+    width: 700px;
+    background-color: #756a6b;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+.login{
+    width: 100%;
+}
+.login .avater{
+    width: 100%;
+    text-align: center;
+}
+.login .avater img{
+    height: 210px;
+    width: 380px;    
+}
+.login h1{
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: darkred;
+}
+.login .form-group{
+    width: 100%;
+    margin: 20px 0px;
+}
+.login .form-group label{
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: ghostwhite;
+}
+.login .form-group .form-control{
+    width: 96%;
+    padding: 12px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: #fff;
+}
+.login .form-group .btn-primary{
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 3px solid #fff;
+    transition: 0.3s;
+    padding: 27px 150px;
+    margin: 0px 175px;
+}
+.login .form-group .btn-primary:hover{
+    background: darkred;
+    color: black;
+    cursor: pointer;
+}
+.login .form-group a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 172px;
+}
+.login .form-group a:hover{
+    color: darkred;
+}
